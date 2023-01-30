@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  // color: black;
+}
+
+img {
+  display: block;
+  // max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+// p,
+// h1,
+// h2,
+// h3,
+// h4 {
+//   margin: 0 auto;
+// }
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}

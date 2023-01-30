@@ -1,0 +1,29 @@
+.blurry-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    // overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background-image: url(../../images/hobbit.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: -3rem;
+    left: -3rem;
+    width: calc(100vw + 6rem);
+    height: calc(100vh + 6rem);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 5rem;
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+.home-link {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  transition: color 250ms ease-in-out;
+  margin-top: 2rem;
+  &:hover,
+  &:focus {
+    color: red;
+  }
+}
+
+.home-link.blurry {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}

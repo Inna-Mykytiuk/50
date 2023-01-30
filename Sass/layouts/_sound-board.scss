@@ -1,0 +1,37 @@
+.sound-body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgb(161, 100, 223);
+}
+
+.sound-btn {
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.sound-btn:hover {
+    opacity: 0.9;
+}
+
+.sound-btn:active {
+    transform: scale(0.98);
+}
+
+.sound-btn:focus {
+    outline: 0;
+}
