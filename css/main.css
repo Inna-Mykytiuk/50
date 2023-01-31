@@ -851,13 +851,74 @@ nav ul li + li + li {
 }
 
 .faq-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.main__faq-title {
+  margin: 50px 0 30px;
   text-align: center;
-  align-items: center;
-  height: 100vh;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
   overflow: hidden;
-  margin: 0;
+  transition: 0.3s ease;
+}
+
+.faq.active {
   background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  color: #2ecc71;
+  opacity: 0.2;
+  font-size: 7rem;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
