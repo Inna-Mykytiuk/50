@@ -970,6 +970,7 @@ nav ul li + li + li {
 .choice-title {
   color: #fff;
   margin: 10px 0 20px;
+  text-align: center;
 }
 
 #choice-textarea {
