@@ -1000,7 +1000,7 @@ nav ul li + li + li {
   background-color: #273c75;
 }
 
-.anim-body {
+.anima {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -1010,9 +1010,6 @@ nav ul li + li + li {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-}
-
-.anim-container {
-  display: flex;
-  width: 90vw;
+  background-color: #eafbff;
+  background-image: linear-gradient(to bottom, #eafbff 0%, #eafbff 50%);
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-.anim-body {
+.anima {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -8,9 +8,9 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: #eafbff;
+    background-image: linear-gradient(to bottom, #eafbff 0%, #eafbff 50%);
+
 }
 
-.anim-container {
-    display: flex;
-    width: 90vw;
-}
+
