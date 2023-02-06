@@ -1055,4 +1055,41 @@ nav ul li + li + li {
   position: relative;
   color: #000;
   margin: 0 10px;
+}
+
+.anim-icon {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.anim-icon:focus {
+  outline: 0;
+}
+
+.anim-icon .line {
+  background-color: #5290f9;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  transition: transform 0.6s linear;
+}
+
+.anim-icon .line2 {
+  top: auto;
+  bottom: 10px;
+}
+
+.nav-anim.active .anim-icon .line1 {
+  transform: rotate(-765deg) translateY(5.5px);
+}
+
+.nav-anim.active .anim-icon .line2 {
+  transform: rotate(765deg) translateY(-5.5px);
 }/*# sourceMappingURL=main.css.map */
