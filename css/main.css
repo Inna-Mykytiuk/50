@@ -1128,4 +1128,16 @@ nav ul li + li + li {
   .wrapper {
     flex-direction: column;
   }
+}
+.water-body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: #8e44ad;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
