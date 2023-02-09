@@ -1248,8 +1248,12 @@ nav ul li + li + li {
 .movie-header {
   display: flex;
   padding: 1rem;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: var(--secondaty-color);
+}
+
+.home-link.movie-link {
+  margin: 0;
 }
 
 .movie-search {
