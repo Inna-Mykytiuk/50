@@ -1278,6 +1278,7 @@ nav ul li + li + li {
 .movie-main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie {
@@ -1326,7 +1327,7 @@ nav ul li + li + li {
   color: red;
 }
 
-.overwiev {
+.overview {
   background-color: #fff;
   padding: 2rem;
   position: absolute;
@@ -1338,6 +1339,6 @@ nav ul li + li + li {
   transition: transform 0.3s ease-in;
 }
 
-.movie:hover .overwiev {
+.movie:hover .overview {
   transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */
